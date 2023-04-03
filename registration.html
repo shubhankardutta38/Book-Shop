@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body bgcolor="#E4F0F8">
+    <center>
+        <font color="blue" size="6" face="arial">
+            Registration Form
+        </font>
+    </center><br/>
+    <form action="right.html">
+        <table align="center">
+            <tr>
+                <td>
+                    First Name(Minimum 6 characters)<font color="red">* </font>
+                </td>
+                <td>
+                    <input type='text' id='firstname'/> <br/><br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name<font color="red"><font color="red">* </font></font>
+                </td>
+                <td>
+                    <input type='text' id='lastname' /><br /><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    EmailAddress<font color="red">* </font>
+                </td>
+                <td>
+                    <input type='text' id='email' placeholder="e.g. smith@hotmail.com" /><br />
+                    <font color="red">(one e-mail id only):</font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password(minimum 6 characters)<font color="red">* </font>
+                </td>
+                <td>
+                    <input type='password' id='pass'><br /><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address<font color="red">* </font>
+                </td>
+                <td>
+                    <textarea rows="2" cols="20" id='addr' /></textarea> <br /> <br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile No<font color="red">* </font>
+                </td>
+                <td>
+                    <input type='text' id='mobileno' /><br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type='radio' name="gender">male
+                    <input type='radio' name="gender">female<br /><br />
+                </td>
+            </tr>
+            <tr>
+                <td align="Center" colspan="2">
+                    <input type='Submit' value='submit' />
+                    <input type='Reset' value='reset' />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
